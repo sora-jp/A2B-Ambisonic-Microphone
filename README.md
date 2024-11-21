@@ -18,11 +18,3 @@ The cables between nodes are **straight-through twisted pair 2-pin JST-PH** cabl
 ## Future work
 - The microphone boards have an expansion port, allowing the system to support up to 32 microphones (in theory, this hasn't been tested). The daughter-board to connect to said port hasn't been designed yet.
 - The firmware is still very early, and doesn't correctly handle every edgecase. Ideally it should do line-fault diagnostics, but this is currently not implemented.
-
-# TODO INTERNAL
-- [x] Fix kicad syms and libs
-- [x] Make sure 3D-models are in the right place
-- [x] Make documentation for ordering (stackup and so on)
-- [ ] Take and insert pictures into docs
-- [ ] Upload CAD models
-- [x] Document wiring (diagram would be nice)
