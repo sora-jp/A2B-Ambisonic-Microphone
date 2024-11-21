@@ -1,0 +1,15 @@
+%compile_commands.json
+-std=gnu99
+-nostdinc
+-nobuiltininc
+-nostdlibinc
+-D__AVR__=1
+-D__AVR_ATmega328P__=1
+-I/nix/store/y9mnxlhj1hda3b75j0hbx80gqfaysvfh-gnumake-4.4.1/include
+-I/nix/store/p7njjidmza0apgaxl9zyxrqzkzmflsv5-avrdude-7.3/include
+-I/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include
+-I/nix/store/x9pcjqpxv8j7fsc5aivx0m38529fxsmi-compiler-rt-libc-17.0.6-dev/include
+-I/nix/store/sdsk72r77gbzdrlxxxi7is5lv5llj28n-avr-gcc-13.2.0/lib/gcc/avr/13.2.0/include
+-I/nix/store/sdsk72r77gbzdrlxxxi7is5lv5llj28n-avr-gcc-13.2.0/lib/gcc/avr/13.2.0/include-fixed
+-I/nix/store/sdsk72r77gbzdrlxxxi7is5lv5llj28n-avr-gcc-13.2.0/lib/gcc/avr/13.2.0/../../../../avr/sys-include
+-I/nix/store/bhh2qwvgxhm0nh7d8plii3kd7l7q82gs-avr-libc-avr-2.1.0/avr/include

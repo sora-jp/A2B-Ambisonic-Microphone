@@ -1,0 +1,143 @@
+(footprint "TDK-ACT1210L-101-2P-TL00"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "39bf1037-2a51-4a30-b3d9-251498cbbd91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TDK-ACT1210L-101-2P-TL00"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9cd544e8-4b1a-4368-a0d1-966caac2f67a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TDK-ACT1210L-101-2P-TL00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "059a6a5b-2f9f-4298-9b2b-ebd3730fcffd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eadae773-ae42-4263-80f4-15a1e23ea9b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "896346a0-997d-40c7-9a54-6535932f7f5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.2 -1)
+		(end 2.2 1)
+		(stroke
+			(width 0.08)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dad77258-1806-4a7a-9980-00410fd4a835")
+	)
+	(fp_rect
+		(start -2.4 -1.2)
+		(end 2.4 1.2)
+		(stroke
+			(width 0.08)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7bc612e5-2c39-4d34-8271-aea26845c63a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "64de462e-1d23-4003-a527-f531f0bd1fd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.525 -0.5)
+		(size 1.05 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f4de20e8-87de-4bf9-8255-0ff28afb032d")
+	)
+	(pad "2" smd roundrect
+		(at 1.525 -0.5)
+		(size 1.05 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "53dd17fd-0a50-4009-9ffa-e3b06a952dc7")
+	)
+	(pad "3" smd roundrect
+		(at -1.525 0.5)
+		(size 1.05 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "39cf46b1-a0d7-41e0-bf6d-9b6dcd9fd6e8")
+	)
+	(pad "4" smd roundrect
+		(at 1.525 0.5)
+		(size 1.05 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "b9077301-eaa8-479a-9df5-9903aadfd34f")
+	)
+	(model "${KIPRJMOD}/ACT1210L-201-2P-TL00--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

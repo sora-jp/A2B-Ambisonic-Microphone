@@ -1,0 +1,7 @@
+.cache/
+.ccls-cache/
+.direnv/
+compile_commands.json
+build/*
+!build/firmware_iface.elf
+!build/firmware_iface.hex
